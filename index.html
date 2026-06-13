@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tareas Cloud - Práctica Colaborativa</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+    <header>
+        <h1>Gestor de Tareas Cloud</h1>
+        <p class="subtitulo">Sincronización en Tiempo Real con Supabase</p>
+    </header>
+    <main>
+        <section class="formulario">
+            <h2>Crear Nueva Tarea</h2>
+            <div class="input-group">
+                <input type="text" id="titulo" placeholder="Ej. Terminar informe de Sistemas" required>
+                <input type="text" id="responsable" placeholder="Nombre del estudiante" required>
+                <button onclick="agregarTarea()">Añadir Tarea</button>
+            </div>
+        </section>
+
+        <section class="lista">
+            <h2>Panel de Actividades <span id="contador">(0)</span></h2>
+            <div id="tareas-container">Conectando con el servidor cloud...</div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
