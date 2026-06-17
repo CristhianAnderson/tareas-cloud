@@ -46,9 +46,9 @@ El proyecto fue desarrollado utilizando herramientas gratuitas y orientadas al d
 
 ---
 
-##  Evidencia e Interfaz del Sistema
+##  Capturas de la Interfaz del Sistema
 
-A continuación, se presentan las capturas de pantalla que evidencian la configuración y funcionamiento del sistema.
+A continuación, se presentan las capturas de pantalla de la configuración y funcionamiento del sistema.
 
 ### 1. Repositorio Remoto en GitHub
 
@@ -67,7 +67,7 @@ Aquí se muestra la tabla de tareas creada en Supabase, donde se almacenan los r
 
 ### 3. Pipeline de Despliegue en Vercel
 
-Evidencia del proceso de automatización continua (CI/CD) enlazado directamente con la rama principal de GitHub.
+Proceso de automatización continua (CI/CD) enlazado directamente con la rama principal de GitHub.
 
 
 <img width="1176" height="631" alt="Captura de pantalla 2026-06-13 195654" src="https://github.com/user-attachments/assets/cbc17ca2-de5f-48f9-bb61-c3bb99cdba54" />
@@ -112,7 +112,7 @@ Abrir el archivo `index.html` usando la extensión **Live Server** de Visual Stu
 
 * **Administrador de Infraestructura:** Cristhian Anderson Roca Saucedo
 * **Desarrollador Frontend:** Meloddy Ortiz Roca
-* **Encargado de Documentación:** Yerko Alex Suárez Banegas
+* **Analista de QA y Documentación:** Yerko Alex Suárez Banegas
 
 ---
 
